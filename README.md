@@ -81,27 +81,27 @@ streamlit run streamlit_app/app.py
 ## 📁 **Project Structure**
 
 student_performance_predictor/
+├─ models/
+│ ├─ random_forest_model.pkl
+│ ├─ trained_feature_names.pkl
+│ ├─ model_performance_summary.csv
+│ └─ feature_importances_rf.csv
 │
-├── models/
-│ ├── random_forest_model.pkl
-│ ├── trained_feature_names.pkl
-│ ├── model_performance_summary.csv
-│ └── feature_importances_rf.csv
+├─ streamlit_app/
+│ └─ app.py
 │
-├── streamlit_app/
-│ └── app.py
+├─ notebooks/
+│ ├─ 01_data_exploration.ipynb
+│ ├─ 02_eda_visualizations.ipynb
+│ └─ 03_modeling_and_prediction.ipynb
 │
-├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_eda_visualizations.ipynb
-│ └── 03_modeling_and_prediction.ipynb
+├─ data/
+│ └─ student-mat.csv
 │
-├── data/
-│ └── student-mat.csv
-│
-├── requirements.txt
-└── README.md
+├─ requirements.txt
+└─ README.md
 
 
 #There are some dummy files too to test cases...
+
 
