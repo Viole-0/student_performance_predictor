@@ -125,9 +125,6 @@ student_performance_predictor/
 
 #There are some dummy files too to test cases...
 
-
-
-
-
+Testing the Documentation Summoner bot.
 
 
