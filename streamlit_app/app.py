@@ -311,25 +311,6 @@ so that teachers and institutions can plan early interventions.
 5. **Deployment** – Model and feature metadata were saved using `joblib`, and a
    Streamlit web app was built for interactive prediction.
 """)
-
-    st.subheader("👥 Team / Credits")
-    st.markdown("""
-**Developed by:**
-- Mihir Ranjan Singh (B.Tech CSE, 4rd Year)  
-- Aditya Prasad Das (B.Tech CSE, 4rd Year)
-- Bikash Das (B.Tech CSE, 4rd Year)
-
-**Contributions:**
-- Mihir Ranjan Singh: Data preprocessing, model training & evaluation, Streamlit app development.  
-- Aditya Prasad Das: Exploratory data analysis, documentation, result interpretation.
-- Bikash Das: Documentation, css designing, app intergration.
-""")
-    
-
-    st.markdown("""
-**Supervised by:**  
-*Mr. G. V. S. Narayana*
-""")
     
     st.subheader("🚧 Limitations & Future Work")
     st.markdown("""
