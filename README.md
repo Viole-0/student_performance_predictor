@@ -3,7 +3,12 @@
 ![ML](https://img.shields.io/badge/Machine%20Learning-Regression-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-[![Live App](https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen?logo=streamlit)]([YOUR_STREAMLIT_URL_HERE](https://studentperformancepredictor-ix2kp5fyavjdeyin7umtnt.streamlit.app/))
+
+[![Live App](https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen?logo=streamlit)](https://studentperformancepredictor-ix2kp5fyavjdeyin7umtnt.streamlit.app/)
+
+# ✨ STUDENT PERFORMANCE PREDICTOR
+A Machine Learning Web App for Predicting Final Exam Scores (G3)
+
 ✨ STUDENT PERFORMANCE PREDICTOR
 
 A Machine Learning Web App for Predicting Final Exam Scores (G3)
@@ -100,4 +105,5 @@ NumPy
 Matplotlib
 
 Joblib
+
 
