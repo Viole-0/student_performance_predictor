@@ -41,8 +41,6 @@ https://studentperformancepredictor-ix2kp5fyavjdeyin7umtnt.streamlit.app/
 
 ## 🖼️ **App Preview**
 
-(Upload your screenshots into a folder called `screenshots/` and update the filenames below)
-
 ### 🔮 Prediction Page  
 ![Prediction Page](screenshots/prediction_page.png)
 
@@ -122,6 +120,7 @@ student_performance_predictor/
 
 
 #There are some dummy files too to test cases...
+
 
 
 
