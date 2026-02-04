@@ -27,4 +27,7 @@ data/cache/
 
 # Node (if any)
 node_modules/
-!models/random_forest_model.pkl
+!notebooks/random_forest_model.pkl
+!notebooks/trained_feature_names.pkl
+!notebooks/model_performance_summary.csv
+!notebooks/feature_importances_rf.csv
