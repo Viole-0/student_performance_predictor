@@ -27,3 +27,4 @@ data/cache/
 
 # Node (if any)
 node_modules/
+!models/random_forest_model.pkl
