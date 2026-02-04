@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# Models
+*.joblib
+*.h5
+*.pkl
+
+# OS
+.DS_Store
+
+# Large data
+data/raw/
+data/cache/
+
+# Node (if any)
+node_modules/
