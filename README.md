@@ -78,7 +78,7 @@ streamlit run streamlit_app/app.py
 
 ---
 
-## 📁 **Project Structure**
+## 📁 Project Structure
 
 student_performance_predictor/
 ├─ models/
@@ -101,7 +101,7 @@ student_performance_predictor/
 ├─ requirements.txt
 └─ README.md
 
-
 #There are some dummy files too to test cases...
+
 
 
