@@ -6,104 +6,98 @@
 
 [![Live App](https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen?logo=streamlit)](https://studentperformancepredictor-ix2kp5fyavjdeyin7umtnt.streamlit.app/)
 
-# ✨ STUDENT PERFORMANCE PREDICTOR
-A Machine Learning Web App for Predicting Final Exam Scores (G3)
+# ✨ STUDENT PERFORMANCE PREDICTOR  
+*A Machine Learning Web App to Predict Final Exam Scores (G3)*
 
-✨ STUDENT PERFORMANCE PREDICTOR
+---
 
-A Machine Learning Web App for Predicting Final Exam Scores (G3)
+## 🎯 **Project Overview**
 
-🎯 Project Overview
+The **Student Performance Predictor** uses machine learning to estimate a student's **final exam score (G3)** based on diverse academic, demographic, and behavioral factors from the UCI Student Performance dataset.
 
-This project predicts a student's final exam score (G3) using behavioral, demographic, family, and academic data from the UCI Student Performance (Math) dataset.
-It aims to help educators identify students who may be at academic risk before the final exam.
+The purpose is early identification of **at-risk students**, enabling proactive academic support.
 
-🚀 Live Demo
+---
 
-🔗 Streamlit App: https://studentperformancepredictor-ix2kp5fyavjdeyin7umtnt.streamlit.app/
+## 🚀 **Live Demo**
 
-📦 Features
+🔗 **Streamlit Application:**  
+https://studentperformancepredictor-ix2kp5fyavjdeyin7umtnt.streamlit.app/
 
-Predict final exam grade G3 (0–20) with ML
+---
 
-Interactive input form with 40+ parameters
+## 🧠 **Features**
 
-Smart recommendations to improve student performance
+- Predict final exam grade **G3 (0–20)**
+- 40+ academic & behavioral inputs
+- Smart recommendations for improving performance
+- Model insights and feature importance visualization
+- Clean, mobile-friendly Streamlit UI
+- Fully deployed and production-ready
 
-Model insights:
-
-R², MSE, MAE
-
-Top 10 feature importances
-
-Clean and responsive UI
-
-Ready for deployment and extension
-
-🧠 Machine Learning Approach
-✔ Dataset
-
-UCI Student Performance (Math)
-
-395 rows, 33 features
-
-Focus on predicting G3 (final grade)
-
-✔ Preprocessing
-
-Categorical encoding using pd.get_dummies() with drop_first=True
-
-Scaling not required for tree-based models
-
-80/20 train-test split
-
-✔ Models evaluated
-
-Linear Regression
-
-Decision Tree Regressor
-
-Gradient Boosting Regressor
-
-Random Forest Regressor (Best performing)
-
-📈 Deployed Model Summary
-Metric	Value
-R²	~0.85 (depending on split)
-MSE	Low
-MAE	Low
-
-(Exact values shown in app’s “Model Insights” section)
-
-🧬 Top Features Affecting G3
-
-G1, G2
-
-studytime
-
-failures
-
-absences
-
-Alcohol consumption levels
-
-Behavioral features (freetime, goout, romantic, etc.)
+---
 
 
-🛠 Tech Stack
 
-Python
+## 🖼️ **App Preview**
 
-Streamlit
+(Upload your screenshots into a folder called `screenshots/` and update the filenames below)
 
-Scikit-Learn
+### 🔮 Prediction Page  
+![Prediction Page](screenshots/prediction_page.png)
 
-Pandas
+### 📊 Model Insights  
+![Model Insights](screenshots/insights.png)
 
-NumPy
+### 🧠 Recommendations  
+![Recommendations](screenshots/recommendations.png)
 
-Matplotlib
+---
 
-Joblib
+## 🛠 Installation
+
+git clone https://github.com/Viole-0/student_performance_predictor.git
+cd student_performance_predictor
+pip install -r requirements.txt
+streamlit run streamlit_app/app.py
+
+---
+
+## 🛠 **Tech Stack**
+
+- Python  
+- Streamlit  
+- Scikit-Learn  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Joblib  
+
+---
+
+## 📁 **Project Structure**
+
+student_performance_predictor/
+│
+├── models/
+│ ├── random_forest_model.pkl
+│ ├── trained_feature_names.pkl
+│ ├── model_performance_summary.csv
+│ └── feature_importances_rf.csv
+│
+├── streamlit_app/
+│ └── app.py
+│
+├── notebooks/
+│ ├── 01_data_exploration.ipynb
+│ ├── 02_eda_visualizations.ipynb
+│ └── 03_modeling_and_prediction.ipynb
+│
+├── data/
+│ └── student-mat.csv
+│
+├── requirements.txt
+└── README.md
 
 
+#There are some dummy files too to test cases...
