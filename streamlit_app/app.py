@@ -9,10 +9,10 @@ import matplotlib.pyplot as plt
 # 📂 Paths
 # -----------------------------
 BASE_DIR = os.path.dirname(__file__)
-MODEL_PATH = os.path.join(BASE_DIR, "..", "notebooks", "random_forest_model.pkl")
-FEATURES_PATH = os.path.join(BASE_DIR, "..", "notebooks", "trained_feature_names.pkl")
-PERF_PATH = os.path.join(BASE_DIR, "..", "notebooks", "model_performance_summary.csv")
-IMP_PATH = os.path.join(BASE_DIR, "..", "notebooks", "feature_importances_rf.csv")
+MODEL_PATH = os.path.join(BASE_DIR, "..", "models", "random_forest_model.pkl")
+FEATURES_PATH = os.path.join(BASE_DIR, "..", "models", "trained_feature_names.pkl")
+PERF_PATH = os.path.join(BASE_DIR, "..", "models", "model_performance_summary.csv")
+IMP_PATH = os.path.join(BASE_DIR, "..", "models", "feature_importances_rf.csv")
 
 # -----------------------------
 # 💾 Load model + feature names
