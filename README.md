@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Student Performance Predictor Banner">
+</p>
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Regression-green)
@@ -120,6 +124,7 @@ student_performance_predictor/
 
 
 #There are some dummy files too to test cases...
+
 
 
 
