@@ -57,8 +57,11 @@ https://studentperformancepredictor-ix2kp5fyavjdeyin7umtnt.streamlit.app/
 ## 🛠 Installation
 
 git clone https://github.com/Viole-0/student_performance_predictor.git
+
 cd student_performance_predictor
+
 pip install -r requirements.txt
+
 streamlit run streamlit_app/app.py
 
 ---
@@ -101,3 +104,4 @@ student_performance_predictor/
 
 
 #There are some dummy files too to test cases...
+
